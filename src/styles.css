@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.header {
+  clear: both;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  float: right;
+}
+
+.logo img {
+  float: left;
+}
+
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-family: raleway;
+}
+.catalogue:hover{
+   background-color:#00FF00;
+}
+
+ul li:hover{
+   background-color:grey;
+}
+a:hover {
+  color: orange;
+}
+.left {
+  margin-top: 50px;
+  clear: both;
+  overflow: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 80px;
+  max-width: fit-content;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.left div {
+  padding: 5%;
+  margin: 5%;
+  text-align: center;
+}
+.right {
+  display: inline-block;
+  margin: 5% 10%;
+  padding: 5% 10%;
+}
+.right-registration {
+  display: inline-block;
+  margin: 2% 10%;
+  padding: 2% 10%;
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+}
+.right-catalogue {
+  display: inline-block;
+  margin: 2% 10%;
+  padding: 2% 10%;
+}a{
+text-decoration: none;}
